@@ -112,9 +112,10 @@ let questions = [
     }
 ]
 
-let SCORE_POINTS = 100;
-let MAX_QUESTIONS = 8;
+let SCORE_POINTS = 10;
+let MAX_QUESTIONS = 6;
 
+/* counters and numbers for start of game */
 function startGame () {
     questionCounter = 0;
     score = 0;
@@ -127,13 +128,14 @@ function getNewQuestion() {
     if(availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score);
 
-        return window.location.assign('/end.html');
+        return window.location.assign('./end.html');
     }
 
     questionCounter++;
     progressText.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS}`;
     progressBarFull.style.width = `${(questionCounter/MAX_QUESTIONS) * 100}%`
 
+    /* generating random questions from array */
     const questionsIndex = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionsIndex];
     question.innerText = currentQuestion.question;

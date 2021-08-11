@@ -2,14 +2,19 @@ body {
     color: #fff
 }
 
+h1 {
+    font-family: 'Londrina Outline', Arial, sans-serif;
+    font-size: 3rem;
+}
+
 .choice-container {
     display: flex;
-    margin-bottom: 0.8rem;
-    width: 100%;
+    margin: auto;
+    max-width: 80%;
     border-radius: 5px;
     background: rgb(18, 93, 255);
     font-size: 3rem;
-    min-width: 80rem;
+    width: 80rem;
 }
 
 .choice-container:hover {
@@ -18,6 +23,8 @@ body {
     transform: scale(1.02);
     transition: transform 100ms;
     background-color: yellow;
+    color: black;
+    font-weight: bolder;
 }
 
 .choice-prefix {
@@ -46,7 +53,10 @@ body {
 
 .hud-prefix {
     text-align: center;
-    font-size: 2rem;
+    font-size: 3rem;
+    font-family: 'Londrina Outline', Arial, sans-serif;
+    color: black;
+    font-weight: bolder;
 }
 
 .hud-main-text {
@@ -68,8 +78,47 @@ body {
     width: 0%;
 }
 
-@media screen and (max-width: 768px) {
-    .choice-container {
-        min-width: 40rem;
+/* responsive design for mobile */
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    body {
+        width: 90vw;
+    }
+    body p {
+        width: 50%;;
+    }
+    body .container {
+        width: 100%;
+        height: 100%;
+    }
+    body .container .choice-container {
+        width: 27rem;
+        top: 20%;
+    }
+    body .container .questions {
+        font-size: 2rem;
+    }
+}
+
+/* responsive design for medium screens */
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    body .container {
+        width: 90%;
+        height: 100%;
+        display: inline-block;
+    }
+    body h1 {
+        font-size: 6.5rem;
+    }
+    body .container .choice-container {
+        height: 10rem;
+        font-size: 5rem;
     }
 }

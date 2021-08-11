@@ -1,7 +1,10 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap');
+
 /* general styling */
 
 :root {
-    background-color: black;
+    background-color: greenyellow;
 }
 
 * { 
@@ -14,8 +17,15 @@
 
 h1 {
     font-size: 5.4rem;
-    color: white;
+    color: black;
     margin-bottom: 5rem;
+    font-family: "Londrina Outline", Arial, sans-serif;
+    font-weight: ;
+    text-align: center;
+}
+
+.heading {
+    text-decoration: underline;
 }
 
 h2 {
@@ -26,14 +36,17 @@ h2 {
 /* quiz area */
 
 .container {
-    width: 100vw;
-    height: 100vh;
+    width: 90%;
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 100%;
-    margin: 0, auto;
+    margin-top: 5%;
+    margin-left: 5%;
     padding: 2rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color:red;
 }
 
 .question {
@@ -135,4 +148,30 @@ input::placeholder {
 
 #saveScoreBtn {
     border: none;
+}
+
+/* responsive desgin */
+
+/* ipad */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .container .btn {
+        font-size: 5rem;
+    }
+    body h1 {
+        font-size: 10rem;
+    }
+}
+
+/* smaller screens, phones etc */
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .btn {
+        max-width: 80%;
+    }
 }
