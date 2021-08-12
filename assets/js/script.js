@@ -110,7 +110,7 @@ let questions = [
         choice4: 5,
         answer: 2,
     }
-]
+];
 
 let SCORE_POINTS = 10;
 let MAX_QUESTIONS = 6;
@@ -133,7 +133,7 @@ function getNewQuestion() {
 
     questionCounter++;
     progressText.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS}`;
-    progressBarFull.style.width = `${(questionCounter/MAX_QUESTIONS) * 100}%`
+    progressBarFull.style.width = `${(questionCounter/MAX_QUESTIONS) * 100}%`;
 
     /* generating random questions from array */
     const questionsIndex = Math.floor(Math.random() * availableQuestions.length);
@@ -141,9 +141,9 @@ function getNewQuestion() {
     question.innerText = currentQuestion.question;
 
     choices.forEach(choice => {
-        const number = choice.dataset['number'];
+        const number = choice.dataset.number;
         choice.innerText = currentQuestion['choice' + number];
-    })
+    });
 
     availableQuestions.splice(questionsIndex, 1);
 
@@ -156,7 +156,7 @@ choices.forEach(choice => {
 
         acceptingAnswers = false;
         const selectedChoice = e.target;
-        const selectedAnswer = selectedChoice.dataset['number'];
+        const selectedAnswer = selectedChoice.dataset.number;
 
         let classToApply = selectedAnswer == currentQuestion.answer ? 'correct': 'incorrect';
 
@@ -169,16 +169,16 @@ choices.forEach(choice => {
 
         setTimeout(() => {
             selectedChoice.parentElement.classList.remove(classToApply);
-            getNewQuestion()
-        }, 1000)
+            getNewQuestion();
+        }, 1000);
 
-    })
-})
+    });
+});
 
 incremementScore = num => {
     score +=num;
     scoreText.innerText = score;
-}
+};
 
-startGame ()
+startGame ();
 
