@@ -150,6 +150,9 @@ function getNewQuestion() {
     acceptingAnswers = true;
 }
 
+
+/* calculating if answers are incorrect or incorrect */
+
 choices.forEach(choice => {
     choice.addEventListener('click', e => {
         if(!acceptingAnswers) return;
@@ -166,7 +169,8 @@ choices.forEach(choice => {
         }
 
         selectedChoice.parentElement.classList.add(classToApply);
-
+        
+        /* new questions loaded */
         setTimeout(() => {
             selectedChoice.parentElement.classList.remove(classToApply);
             getNewQuestion();

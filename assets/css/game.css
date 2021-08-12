@@ -1,3 +1,4 @@
+/* general styling for quiz page */
 body {
     color: #fff
 }
@@ -6,6 +7,8 @@ h1 {
     font-family: 'Londrina Outline', Arial, sans-serif;
     font-size: 3rem;
 }
+
+/* quiz questions and answers section */
 
 .choice-container {
     display: flex;
