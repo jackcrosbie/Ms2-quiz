@@ -157,7 +157,7 @@ let questions = [
         choice3: 4,
         choice4: 5,
         answer: 2,
-    }
+    },
     {
         question: "Who is the greek god of love?",
         choice1: 'Ares',
@@ -165,7 +165,7 @@ let questions = [
         choice3: 'Posedion',
         choice4: 'Aphrodite',
         answer: 2,
-    }
+    },
     {
         question: "Lando Norris is a famous name in which sport?",
         choice1: 'Football',
