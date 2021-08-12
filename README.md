@@ -84,3 +84,24 @@ These videos helped me gain ideas for features and ways of implementing them usi
 I also utilised articles on w3schools and stack overflow.
 
 Help was provided to me by colleagues on Slack and I would like to acknowledge my mentor Aaron Sinnott for his help, advice and support.
+
+## Wireframes
+
+Large Screen Wireframes:
+
+![Wireframe Large Screen End Page](https://user-images.githubusercontent.com/82109134/129125251-2e6d9302-6e31-4979-84d6-df7b87d4e365.png)
+![Wireframe Large Screen Quiz Page](https://user-images.githubusercontent.com/82109134/129125259-11f9dab0-2f05-4f7f-b970-40784c7c2bf0.png)
+![Wireframe Large Screen End Page](https://user-images.githubusercontent.com/82109134/129125267-d55cca41-4539-443b-af36-944e05022d1c.png)
+
+Medium Screen Wireframes:
+
+![Med Screen Wireframe Homepage](https://user-images.githubusercontent.com/82109134/129125467-d220890e-30a3-4faf-bf65-f6a0b1914e84.png)
+![Med Screen Wireframe Quiz Page](https://user-images.githubusercontent.com/82109134/129125477-17546794-02ad-496a-9fcc-0436a97f249d.png)
+![Med Screen Wireframe End Page](https://user-images.githubusercontent.com/82109134/129125479-ae883fc6-c4b4-4d27-b4dd-a386df97af45.png)
+
+Small Screen Wireframes:
+
+![Small Screen Wireframe Homepage](https://user-images.githubusercontent.com/82109134/129125831-45894097-fdb5-4c37-89fa-80fdf204ae34.png)
+![Small Screen Wireframe Quiz Page](https://user-images.githubusercontent.com/82109134/129125834-440af99c-f84f-4c23-b1a3-d677bec9212f.png)
+![Small Screen Wireframe End Page](https://user-images.githubusercontent.com/82109134/129125838-fde4afd8-06c0-45cb-9db1-4ea25e961e22.png)
+
