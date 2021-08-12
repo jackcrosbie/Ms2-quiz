@@ -89,9 +89,9 @@ Help was provided to me by colleagues on Slack and I would like to acknowledge m
 
 Large Screen Wireframes:
 
-![Wireframe Large Screen End Page](https://user-images.githubusercontent.com/82109134/129125251-2e6d9302-6e31-4979-84d6-df7b87d4e365.png)
-![Wireframe Large Screen Quiz Page](https://user-images.githubusercontent.com/82109134/129125259-11f9dab0-2f05-4f7f-b970-40784c7c2bf0.png)
-![Wireframe Large Screen End Page](https://user-images.githubusercontent.com/82109134/129125267-d55cca41-4539-443b-af36-944e05022d1c.png)
+![Wireframe Large Screen Homepage](https://user-images.githubusercontent.com/82109134/129175217-5245f328-1ebf-4185-bb0e-f4e164291046.png)
+![Wireframe Large Screen Quiz Page](https://user-images.githubusercontent.com/82109134/129175242-bab3bd0a-5865-4eb0-a1bf-30ae8bb64cae.png)
+![Wireframe Large Screen End Page](https://user-images.githubusercontent.com/82109134/129175251-04dc8e98-f754-4652-99d7-3791a429d280.png)
 
 Medium Screen Wireframes:
 
