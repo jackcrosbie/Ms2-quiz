@@ -91,7 +91,8 @@ Large Screen Wireframes:
 
 ![Wireframe Large Screen Homepage](https://user-images.githubusercontent.com/82109134/129175217-5245f328-1ebf-4185-bb0e-f4e164291046.png)
 ![Wireframe Large Screen Quiz Page](https://user-images.githubusercontent.com/82109134/129175242-bab3bd0a-5865-4eb0-a1bf-30ae8bb64cae.png)
-![Wireframe Large Screen End Page](https://user-images.githubusercontent.com/82109134/129175251-04dc8e98-f754-4652-99d7-3791a429d280.png)
+![Wireframe Large Screen End Page](https://user-images.githubusercontent.com/82109134/129175753-e36284bf-287e-4fac-9e33-f0769c3fad02.png)
+
 
 Medium Screen Wireframes:
 
