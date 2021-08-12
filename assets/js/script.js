@@ -179,7 +179,7 @@ let questions = [
 let SCORE_POINTS = 10;
 let MAX_QUESTIONS = 5;
 
-/* counters and numbers for start of game */
+// counters and numbers for start of game
 function startGame () {
     questionCounter = 0;
     score = 0;
@@ -194,12 +194,12 @@ function getNewQuestion() {
 
         return window.location.assign('./end.html');
     }
-
+    // Progress bar JavaScript
     questionCounter++;
     progressText.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS}`;
     progressBarFull.style.width = `${(questionCounter/MAX_QUESTIONS) * 100}%`;
 
-    /* generating random questions from array */
+    // generating random questions from array
     const questionsIndex = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionsIndex];
     question.innerText = currentQuestion.question;
@@ -215,7 +215,7 @@ function getNewQuestion() {
 }
 
 
-/* calculating if answers are incorrect or incorrect */
+// calculating if answers are incorrect or incorrect
 
 choices.forEach(choice => {
     choice.addEventListener('click', e => {
@@ -227,14 +227,14 @@ choices.forEach(choice => {
 
         let classToApply = selectedAnswer == currentQuestion.answer ? 'correct': 'incorrect';
 
-        /* points added if answer correct */
+        // points added if answer correct
         if(classToApply === 'correct') {
             incremementScore(SCORE_POINTS);
         }
 
         selectedChoice.parentElement.classList.add(classToApply);
         
-        /* new questions loaded */
+        // new questions loaded
         setTimeout(() => {
             selectedChoice.parentElement.classList.remove(classToApply);
             getNewQuestion();
