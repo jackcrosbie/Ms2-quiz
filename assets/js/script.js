@@ -71,6 +71,14 @@ let questions = [
         answer: 1,
     },
     {
+        question: "How long is a marathon?",
+        choice1: '28.7 miles',
+        choice2: '26.2 miles',
+        choice3: '23.4 miles',
+        choice4: '21.3 miles',
+        answer: 2,
+    },
+    {
         question: "How many oscars did the movie Titanic win?",
         choice1: '8',
         choice2: '9',
@@ -103,6 +111,46 @@ let questions = [
         answer: 3,
     },
     {
+        question: "What is the collective name for a group of owls?",
+        choice1: 'Government',
+        choice2: 'Senate',
+        choice3: 'Council',
+        choice4: 'Parliament',
+        answer: 4,
+    },
+    {
+        question: "What is the longest river in the world?",
+        choice1: 'Nile',
+        choice2: 'Niger',
+        choice3: 'Amazon',
+        choice4: 'Yangtze',
+        answer: 3,
+    },
+    {
+        question: "How many bones are their in an adult human skeleton?",
+        choice1: '286',
+        choice2: '246',
+        choice3: '216',
+        choice4: '206',
+        answer: 4,
+    },
+    {
+        question: "How many gold medals did Usain Bolt win?",
+        choice1: '8',
+        choice2: '6',
+        choice3: '10',
+        choice4: '12',
+        answer: 1,
+    },
+    {
+        question: "What is the highest grossing film of all time?",
+        choice1: 'Titanic',
+        choice2: 'Avengers: Endgame',
+        choice3: 'Avatar',
+        choice4: 'Avengers: Infinity War',
+        answer: 2,
+    },
+    {
         question: "How many countries in the world begin with the letter F?",
         choice1: 2,
         choice2: 3,
@@ -110,10 +158,26 @@ let questions = [
         choice4: 5,
         answer: 2,
     }
+    {
+        question: "Who is the greek god of love?",
+        choice1: 'Ares',
+        choice2: 'Eros',
+        choice3: 'Posedion',
+        choice4: 'Aphrodite',
+        answer: 2,
+    }
+    {
+        question: "Lando Norris is a famous name in which sport?",
+        choice1: 'Football',
+        choice2: 'Cricket',
+        choice3: 'Formula 1',
+        choice4: 'Boxing',
+        answer: 3,
+    }
 ];
 
 let SCORE_POINTS = 10;
-let MAX_QUESTIONS = 6;
+let MAX_QUESTIONS = 5;
 
 /* counters and numbers for start of game */
 function startGame () {
