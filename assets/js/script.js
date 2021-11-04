@@ -195,7 +195,6 @@ function getNewQuestion() {
         return window.location.assign('./end.html');
     }
     // Progress bar JavaScript
-    questionCounter++;
     progressText.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS}`;
     progressBarFull.style.width = `${(questionCounter/MAX_QUESTIONS) * 100}%`;
 
@@ -212,6 +211,7 @@ function getNewQuestion() {
     availableQuestions.splice(questionsIndex, 1);
 
     acceptingAnswers = true;
+    questionCounter++;
 }
 
 
