@@ -11,8 +11,7 @@ let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
 
-// Quiz Questions
-
+//Master list of questions that are used to randomly generate the questions for the quiz
 let questions = [
     {
         question: "Which country did Vietnam claimed independence from in 1945?",
@@ -179,7 +178,7 @@ let questions = [
 let SCORE_POINTS = 10;
 let MAX_QUESTIONS = 8;
 
-// counters and numbers for start of game
+// function starts the game, setting the score and question counter at 0
 function startGame () {
     questionCounter = 0;
     score = 0;
@@ -188,13 +187,13 @@ function startGame () {
 }
 
 function getNewQuestion() {
-    // keep track of score
+    // Code works out and stores the scores in local storage
     if(availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score);
 
         return window.location.assign('./end.html');
     }
-    // Progress bar JavaScript
+    // This code enables the progress bar to fill up as questions are answered
     progressText.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS}`;
     progressBarFull.style.width = `${(questionCounter/MAX_QUESTIONS) * 100}%`;
 
@@ -216,7 +215,6 @@ function getNewQuestion() {
 
 
 // calculating if answers are incorrect or incorrect
-
 choices.forEach(choice => {
     choice.addEventListener('click', e => {
         if(!acceptingAnswers) return;
@@ -227,14 +225,14 @@ choices.forEach(choice => {
 
         let classToApply = selectedAnswer == currentQuestion.answer ? 'correct': 'incorrect';
 
-        // points added if answer correct
+        // points added to score if the question is answered correctly
         if(classToApply === 'correct') {
             incremementScore(SCORE_POINTS);
         }
 
         selectedChoice.parentElement.classList.add(classToApply);
         
-        // new questions loaded
+        // loads new question after a one second timeout
         setTimeout(() => {
             selectedChoice.parentElement.classList.remove(classToApply);
             getNewQuestion();
