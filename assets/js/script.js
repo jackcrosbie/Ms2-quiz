@@ -177,7 +177,7 @@ let questions = [
 ];
 
 let SCORE_POINTS = 10;
-let MAX_QUESTIONS = 5;
+let MAX_QUESTIONS = 8;
 
 // counters and numbers for start of game
 function startGame () {
