@@ -8,6 +8,31 @@ Jack's fun quiz is made for people who want to kill a little time, test their kn
 
 ![Homepage Screenshot](https://user-images.githubusercontent.com/82109134/129120039-06b7deff-d1f9-429d-9ea9-3a5f6d9105ab.png)
 
+## Wireframes
+
+Large Screen Wireframes:
+
+![Wireframe Large Screen Homepage](https://user-images.githubusercontent.com/82109134/129175217-5245f328-1ebf-4185-bb0e-f4e164291046.png)
+![Wireframe Large Screen Quiz Page](https://user-images.githubusercontent.com/82109134/129175242-bab3bd0a-5865-4eb0-a1bf-30ae8bb64cae.png)
+![Wireframe Large Screen End Page](https://user-images.githubusercontent.com/82109134/129175753-e36284bf-287e-4fac-9e33-f0769c3fad02.png)
+
+
+Medium Screen Wireframes:
+
+![Med Screen Wireframe Homepage](https://user-images.githubusercontent.com/82109134/129125467-d220890e-30a3-4faf-bf65-f6a0b1914e84.png)
+
+![Med Screen Wireframe Quiz Page](https://user-images.githubusercontent.com/82109134/129125477-17546794-02ad-496a-9fcc-0436a97f249d.png)
+
+![Med Screen Wireframe End Page](https://user-images.githubusercontent.com/82109134/129125479-ae883fc6-c4b4-4d27-b4dd-a386df97af45.png)
+
+Small Screen Wireframes:
+
+![Small Screen Wireframe Homepage](https://user-images.githubusercontent.com/82109134/129125831-45894097-fdb5-4c37-89fa-80fdf204ae34.png)
+
+![Small Screen Wireframe Quiz Page](https://user-images.githubusercontent.com/82109134/129125834-440af99c-f84f-4c23-b1a3-d677bec9212f.png)
+
+![Small Screen Wireframe End Page](https://user-images.githubusercontent.com/82109134/129125838-fde4afd8-06c0-45cb-9db1-4ea25e961e22.png)
+
 ## Features
 The general design for the website is very simple. The general 'childlike' look to the webstie is supposed to mirror it's fun easy going purpose. The use of 'Londrian Outline' for the bubble letter almost gives it a childs art feel.
 The homepage (pictured above) has a simple title, coloured container for desin and a 'Start Quiz' button.
@@ -68,7 +93,7 @@ The progress bar is currently filling to fast. This wasn't an issue for the majo
 
 The site was deployed to GitHub pages. The steps to deploy are as follows:
 * In the GitHub repository, navigate to the Settings tab
-* From the source section drop-down menu, select the Master Branch
+* From the source section drop-down menu, select the Main Branch
 * Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 The live link can be found here - https://jackcrosbie.github.io/Ms2-quiz/
 
@@ -85,24 +110,4 @@ I also utilised articles on w3schools and stack overflow.
 
 Help was provided to me by colleagues on Slack and I would like to acknowledge my mentor Aaron Sinnott for his help, advice and support.
 
-## Wireframes
-
-Large Screen Wireframes:
-
-![Wireframe Large Screen Homepage](https://user-images.githubusercontent.com/82109134/129175217-5245f328-1ebf-4185-bb0e-f4e164291046.png)
-![Wireframe Large Screen Quiz Page](https://user-images.githubusercontent.com/82109134/129175242-bab3bd0a-5865-4eb0-a1bf-30ae8bb64cae.png)
-![Wireframe Large Screen End Page](https://user-images.githubusercontent.com/82109134/129175753-e36284bf-287e-4fac-9e33-f0769c3fad02.png)
-
-
-Medium Screen Wireframes:
-
-![Med Screen Wireframe Homepage](https://user-images.githubusercontent.com/82109134/129125467-d220890e-30a3-4faf-bf65-f6a0b1914e84.png)
-![Med Screen Wireframe Quiz Page](https://user-images.githubusercontent.com/82109134/129125477-17546794-02ad-496a-9fcc-0436a97f249d.png)
-![Med Screen Wireframe End Page](https://user-images.githubusercontent.com/82109134/129125479-ae883fc6-c4b4-4d27-b4dd-a386df97af45.png)
-
-Small Screen Wireframes:
-
-![Small Screen Wireframe Homepage](https://user-images.githubusercontent.com/82109134/129125831-45894097-fdb5-4c37-89fa-80fdf204ae34.png)
-![Small Screen Wireframe Quiz Page](https://user-images.githubusercontent.com/82109134/129125834-440af99c-f84f-4c23-b1a3-d677bec9212f.png)
-![Small Screen Wireframe End Page](https://user-images.githubusercontent.com/82109134/129125838-fde4afd8-06c0-45cb-9db1-4ea25e961e22.png)
 

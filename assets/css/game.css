@@ -20,15 +20,15 @@ h1 {
     width: 80rem;
 }
 
-.choice-container:hover {
+/* .choice-container:hover {
     cursor: pointer;
     box-shadow: 0 0.4rem 1.4rem 0 rgba(6, 103, 247, 0.5);
     transform: scale(1.02);
     transition: transform 100ms;
     background-color: yellow;
-    color: black;
+    color: black; 
     font-weight: bolder;
-}
+} */
 
 .choice-prefix {
     padding: 2rem 2.5rem;
