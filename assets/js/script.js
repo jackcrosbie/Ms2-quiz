@@ -97,7 +97,7 @@ let questions = [
         question: "What animal is know for the 'Great Migration' across the African plains?",
         choice1: 'Lions',
         choice2: 'Elephants',
-        choice3: 'Wildebeast',
+        choice3: 'Wildebeest',
         choice4: 'Gazelles',
         answer: 3,
     },

@@ -84,7 +84,7 @@ p {
     width: 0%;
 }
 
-/* responsive design for medium screens */
+/* media queries for medium screens */
 
 @media only screen 
   and (min-width: 768px) 
@@ -103,7 +103,9 @@ p {
     }
 }
 
-@media (min-width: 992px) and (max-width : 2000px) {
+/* media queries for larger screens */
+
+@media (min-width: 1500px) {
     .choice-container:hover {
         cursor: pointer;
         box-shadow: 0 0.4rem 1.4rem 0 rgba(6, 103, 247, 0.5);
