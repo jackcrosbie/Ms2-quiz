@@ -1,16 +1,22 @@
 /* general styling for quiz page */
 body {
     color: #fff
+    width: 90%;
+    height: 100%;
 }
 
-h1 {
+ h1 {
     font-family: 'Londrina Outline', Arial, sans-serif;
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 h2 {
     font-family: 'Londrina Outline', Arial, sans-serif;
     font-size: 3rem;
+}
+
+p {
+    width: 50%;
 }
 
 /* quiz questions and answers section */
@@ -22,7 +28,9 @@ h2 {
     border-radius: 5px;
     background: rgb(18, 93, 255);
     font-size: 3rem;
-    width: 80rem;
+    width: 80%;
+    height: 100%;
+    top: 20%;
 }
 
 /* .choice-container:hover {
@@ -88,7 +96,7 @@ h2 {
 
 /* responsive design for mobile */
 
-@media only screen 
+/* @media only screen 
   and (min-width: 320px) 
   and (max-width: 480px) {
     body {
@@ -109,7 +117,7 @@ h2 {
     body .container .questions {
         font-size: 2rem;
     }
-}
+} */
 
 /* responsive design for medium screens */
 

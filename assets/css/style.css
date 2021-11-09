@@ -47,7 +47,7 @@ h3 {
 
 .container {
     width: 90%;
-    height: 80vh;
+    height: fit-content;
     display: flex;
     justify-content: center;
     align-items: center;
