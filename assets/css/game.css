@@ -8,6 +8,11 @@ h1 {
     font-size: 3rem;
 }
 
+h2 {
+    font-family: 'Londrina Outline', Arial, sans-serif;
+    font-size: 3rem;
+}
+
 /* quiz questions and answers section */
 
 .choice-container {
