@@ -1,7 +1,6 @@
 /* general styling for quiz page */
 body {
-    color: #fff
-    width: 90%;
+    color: rgb(10, 10, 10);
     height: 100%;
 }
 
@@ -33,22 +32,13 @@ p {
     top: 20%;
 }
 
-/* .choice-container:hover {
-    cursor: pointer;
-    box-shadow: 0 0.4rem 1.4rem 0 rgba(6, 103, 247, 0.5);
-    transform: scale(1.02);
-    transition: transform 100ms;
-    background-color: yellow;
-    color: black; 
-    font-weight: bolder;
-} */
-
 .choice-prefix {
     padding: 2rem 2.5rem;
     color: white;
 }
 
 .choice-text {
+    font-size: .8em;
     padding: 2rem;
     width: 100%;
 }
@@ -94,31 +84,6 @@ p {
     width: 0%;
 }
 
-/* responsive design for mobile */
-
-/* @media only screen 
-  and (min-width: 320px) 
-  and (max-width: 480px) {
-    body {
-        width: 90vw;
-        height: 100%;
-    }
-    body p {
-        width: 50%;;
-    }
-    body .container {
-        width: 100%;
-        height: 100%;
-    }
-    body .container .choice-container {
-        width: 27rem;
-        top: 20%;
-    }
-    body .container .questions {
-        font-size: 2rem;
-    }
-} */
-
 /* responsive design for medium screens */
 
 @media only screen 
@@ -136,4 +101,16 @@ p {
         height: 10rem;
         font-size: 5rem;
     }
+}
+
+@media (min-width: 992px) and (max-width : 2000px) {
+    .choice-container:hover {
+        cursor: pointer;
+        box-shadow: 0 0.4rem 1.4rem 0 rgba(6, 103, 247, 0.5);
+        transform: scale(1.02);
+        transition: transform 100ms;
+        background-color: yellow;
+        color: black; 
+        font-weight: bolder;
+    } 
 }
