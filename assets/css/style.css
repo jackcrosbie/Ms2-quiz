@@ -120,3 +120,66 @@ h3 {
 #highscore-btn:hover {
     box-shadow: 0 0.4rem 1.4rem 0 rgba(255, 255, 0, 0.5);
 }
+
+/* end page text */
+
+#end-text {
+    margin-top: 10%;
+}
+
+#end-text h2 {
+    font-size: 12em;
+}
+
+/* media queries for medium screens */
+
+@media only screen 
+  and (min-width: 768px) 
+  and (max-width: 1024px) {
+    body .container {
+        margin-top: 10%;
+        width: 90%;
+        height: 100%;
+        display: inline-block;
+    }
+    body h1 {
+        font-size: 8rem;
+    }
+    body h2, h3 {
+        font-size: 7rem;
+    }
+    #home .btn {
+        font-size: 5rem;
+    }
+    body .container .choice-container {
+        height: 10rem;
+        font-size: 5rem;
+    }
+    #end-text h2 {
+        font-size: 9rem;
+    }
+    #end-text h3 {
+        padding: 3%;
+        font-size: 8rem;
+    }
+    #end .btn {
+        font-size: 5rem;
+        margin: 5%;
+        padding: 3.5%;
+    }
+}
+
+
+/* media queries for larger screens */
+
+@media (min-width: 1500px) {
+    .choice-container:hover {
+        cursor: pointer;
+        box-shadow: 0 0.4rem 1.4rem 0 rgba(6, 103, 247, 0.5);
+        transform: scale(1.02);
+        transition: transform 100ms;
+        background-color: yellow;
+        color: black; 
+        font-weight: bolder;
+    } 
+}
