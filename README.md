@@ -10,6 +10,8 @@ Jack's fun quiz is made for people who want to kill a little time, test their kn
 ![mobile_homepage_screenshot](https://github.com/jackcrosbie/Ms2-quiz/blob/7dab1c91f69bc1e223ec2489882cfd3bc12efe12/docs/mobile_homepage_screenshot.JPG)
 ![tablet_homepage_screenshot](https://github.com/jackcrosbie/Ms2-quiz/blob/7dab1c91f69bc1e223ec2489882cfd3bc12efe12/docs/homepage_tablet_screenshot.JPG)
 
+Live website can be found here: https://jackcrosbie.github.io/Ms2-quiz/
+
 ## Wireframes
 
 Large Screen Wireframes:
@@ -18,22 +20,23 @@ Large Screen Wireframes:
 ![Wireframe Large Screen Quiz Page](https://user-images.githubusercontent.com/82109134/129175242-bab3bd0a-5865-4eb0-a1bf-30ae8bb64cae.png)
 ![Wireframe Large Screen End Page](https://user-images.githubusercontent.com/82109134/129175753-e36284bf-287e-4fac-9e33-f0769c3fad02.png)
 
-
 Medium Screen Wireframes:
 
+
 ![Med Screen Wireframe Homepage](https://user-images.githubusercontent.com/82109134/129125467-d220890e-30a3-4faf-bf65-f6a0b1914e84.png)
-
 ![Med Screen Wireframe Quiz Page](https://user-images.githubusercontent.com/82109134/129125477-17546794-02ad-496a-9fcc-0436a97f249d.png)
-
 ![Med Screen Wireframe End Page](https://user-images.githubusercontent.com/82109134/129125479-ae883fc6-c4b4-4d27-b4dd-a386df97af45.png)
 
 Small Screen Wireframes:
 
+
 ![Small Screen Wireframe Homepage](https://user-images.githubusercontent.com/82109134/129125831-45894097-fdb5-4c37-89fa-80fdf204ae34.png)
-
 ![Small Screen Wireframe Quiz Page](https://user-images.githubusercontent.com/82109134/129125834-440af99c-f84f-4c23-b1a3-d677bec9212f.png)
-
 ![Small Screen Wireframe End Page](https://user-images.githubusercontent.com/82109134/129125838-fde4afd8-06c0-45cb-9db1-4ea25e961e22.png)
+
+## Site Goals
+
+The website is intended to be a simple fun quiz users can partake in to relax and have fun. The questions are pulled at random from an array which means the quiz is replayable. Each question has 4 multiple choice answers with only one of them being correct. I chose not to give the user the right answer if they got a question wrong so if they replay the quiz and that question is selected they don't know the answer after getting it wrong.
 
 ## Features
 The general design for the website is very simple. The general 'childlike' look to the webstie is supposed to mirror it's fun easy going purpose. The use of 'Londrian Outline' for the bubble letter almost gives it a childs art feel.
@@ -93,8 +96,12 @@ The progress bar is currently filling to fast. This wasn't an issue for the majo
 
 ## Deployment
 
+
 The site was deployed to GitHub pages. The steps to deploy are as follows:
 * In the GitHub repository, navigate to the Settings tab
+
+
+
 * From the source section drop-down menu, select the Main Branch
 * Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 The live link can be found here - https://jackcrosbie.github.io/Ms2-quiz/
