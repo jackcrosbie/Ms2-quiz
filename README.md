@@ -6,7 +6,8 @@ You're awarded 10 points per correct answer and 0 points for an incorrect answer
 I hope to keep adding more questions to the quiz to enable users to return at a later date with new questions.
 Jack's fun quiz is made for people who want to kill a little time, test their knowledge and have a little fun.
 
-![Homepage Screenshot](https://user-images.githubusercontent.com/82109134/129120039-06b7deff-d1f9-429d-9ea9-3a5f6d9105ab.png)
+![homepage_screenshot](https://github.com/jackcrosbie/Ms2-quiz/blob/9be3a9b969758363b25ddce7c912320a5155c1a5/docs/homepage_screenshot.JPG)
+![mobile_homepage_screenshot]()
 
 ## Wireframes
 
