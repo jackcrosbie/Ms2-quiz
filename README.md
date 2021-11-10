@@ -59,9 +59,9 @@ Through JavaScript when you push the 'Start Quiz' button it begins the process o
   
 ![2021-08-12 (2)](https://user-images.githubusercontent.com/82109134/129121416-7d858818-397c-42ea-8f49-cb0d6e0573fa.png)
 
-On the final end page of the quiz you get two buttons. Once to replay the quiz and another to bring you back to the home page. These buttons when hovered over slight grow in size and have a shadow around the edge to show you this is the button you are going to select. The play again button restarts the JavaScript loop, sending the score counter back to zero and starting the random question generator again.
+On the final end page of the quiz you get two buttons and a message thanking you for playing. Once to replay the quiz and another to bring you back to the home page. These buttons when hovered over slight grow in size and have a shadow around the edge to show you this is the button you are going to select. The play again button restarts the JavaScript loop, sending the score counter back to zero and starting the random question generator again.
 
-![End buttons](https://user-images.githubusercontent.com/82109134/129121811-514af42f-30d0-4f0b-87ca-79e81b030ce2.png)
+![End buttons](https://github.com/jackcrosbie/Ms2-quiz/blob/979be43ab9723473c62ab66dee47d7e3ab16c6b6/docs/endpage_screenshot.JPG)
 
 ## Features Left to Implement
 * At the moment your score at the end of the game isn't shown on the end page. This is something I would like to add in in future.
