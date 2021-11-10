@@ -46,13 +46,13 @@ Through JavaScript when you push the 'Start Quiz' button it begins the process o
   The progress bar increases as you answer each question to show how long you have till it's over.
   It fills with a green color and when full you get the final question of the quiz.
  
- ![Progress Bar](https://user-images.githubusercontent.com/82109134/129120905-91fd4501-da80-45e6-9fbb-0e70298c0ad4.png)
+ ![Progress Bar](https://github.com/jackcrosbie/Ms2-quiz/blob/a38ca82164506246c54b3bf90687a3c4f075ca4f/docs/progress_bar.JPG)
 
  * Score Counter
    For each question you get right in the quiz you are award 10 points. I coded a counter into the top right corner that updates after every correct or incorrect answer.
    Ideally this will produce your total score when you complete the quiz but this is a feature I have yet to implement.
 
-![Score Counter](https://user-images.githubusercontent.com/82109134/129121036-9d3fef5b-f2f8-430c-bb7b-5e4f6d19912e.png)
+![Score Counter](https://github.com/jackcrosbie/Ms2-quiz/blob/a38ca82164506246c54b3bf90687a3c4f075ca4f/docs/score_counter.JPG)
 
 * Interative Answer Buttons
   The buttons on the website are the most complex elements of the entire website. When selecting an answer whichever answer button is hovered over changes colour to indicate to the user they are selecting that button. Once the button is pressed it triggers a process where the JavaScript element checks if the correct or incorrect answer has been selected. If correct the button then tells in the score element to add ten points to the counter and also ask for another question to be randomly generated from the array of questions. The answer button will light up green if the correct answer is selected or red if the incorrect answer is selected.
