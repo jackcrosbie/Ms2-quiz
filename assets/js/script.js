@@ -11,7 +11,7 @@ let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
 
-//Master list of questions that are used to randomly generate the questions for the quiz
+//Master list of questions that is used to randomly generate the questions for the quiz
 let questions = [
     {
         question: "Which country did Vietnam claimed independence from in 1945?",
