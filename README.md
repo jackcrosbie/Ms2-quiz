@@ -7,7 +7,8 @@ I hope to keep adding more questions to the quiz to enable users to return at a 
 Jack's fun quiz is made for people who want to kill a little time, test their knowledge and have a little fun.
 
 ![homepage_screenshot](https://github.com/jackcrosbie/Ms2-quiz/blob/9be3a9b969758363b25ddce7c912320a5155c1a5/docs/homepage_screenshot.JPG)
-![mobile_homepage_screenshot]()
+![mobile_homepage_screenshot](https://github.com/jackcrosbie/Ms2-quiz/blob/7dab1c91f69bc1e223ec2489882cfd3bc12efe12/docs/mobile_homepage_screenshot.JPG)
+![tablet_homepage_screenshot](https://github.com/jackcrosbie/Ms2-quiz/blob/7dab1c91f69bc1e223ec2489882cfd3bc12efe12/docs/homepage_tablet_screenshot.JPG)
 
 ## Wireframes
 
