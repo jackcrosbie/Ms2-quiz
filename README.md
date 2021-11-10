@@ -99,11 +99,17 @@ The progress bar is currently filling to fast. This wasn't an issue for the majo
 
 The site was deployed to GitHub pages. The steps to deploy are as follows:
 * In the GitHub repository, navigate to the Settings tab
+![github_settings_tab](https://github.com/jackcrosbie/Ms2-quiz/blob/c241d6bc8f0cc9841cf3c9f3f49f23e6fc078f7b/docs/github_settingstab.png)
 
+* In settings find pages option from menu on the left
+
+![github_pages_tab](https://github.com/jackcrosbie/Ms2-quiz/blob/c241d6bc8f0cc9841cf3c9f3f49f23e6fc078f7b/docs/pages_github.png)
 
 
 * From the source section drop-down menu, select the Main Branch
 * Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+![github_branch_settings](https://github.com/jackcrosbie/Ms2-quiz/blob/c241d6bc8f0cc9841cf3c9f3f49f23e6fc078f7b/docs/github_settings.png)
 The live link can be found here - https://jackcrosbie.github.io/Ms2-quiz/
 
 ## Credits
