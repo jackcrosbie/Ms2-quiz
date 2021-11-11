@@ -173,7 +173,9 @@ CSS - https://jigsaw.w3.org/css-validator/
 
 JavaScript - https://jshint.com/
 
-I also utilised articles on w3schools and stack overflow to help me with various issues while coding this project..
+I also utilised articles on w3schools and stack overflow to help me with various issues while coding this project.
+
+## Acknowledgements
 
 Help was provided to me by colleague, Daisy Gunn, on Slack and I would like to acknowledge my previous mentor, Aaron Sinnott, and my current mentor, Daisy McGirr, for their help, advice and support.
 
