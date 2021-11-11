@@ -72,17 +72,17 @@ On the final end page of the quiz you get two buttons and a message thanking you
 
 ## Testing
 
-When testing my HTML in the validator two of my three HTML pages came back showing "no errors or warnings". These were my index.html and end.html files.
-However when i ran my game.html through the validator is returned with one error and that was an "empty heading" error.
+### Automated Testing
 
-![HTML error](https://user-images.githubusercontent.com/82109134/129122583-1ae70ba2-d5aa-4314-9a5b-bc8ba763c323.png)
+* HTML: I ran all three pages of my HTML code through the W3C HTML Validator. Each of the three pages passed with no errors occuring.
 
-This element is in my code so the h1 style elements could be applied to my questions being generated from the JavaScript array.
-It doesn't appear to have any bearing on my code performance but it is something I will definitely look into further and figure out if there's an easy fix which i haven't discovered yet.
+![HTML validator result]()
 
-When i ran both my css files through the css validator they both came back with "Congratulation! No Error Found.".
+* CSS: When i ran both my css files through the css validator they both came back with "Congratulation! No Error Found.".
 
-When running my JavaScript through a validator it returned a number of small errors. Mainly missing semi-colons and untidy syntax. After cleaning all this up I was still left with two errors. They were as follows:
+![CSS validator result]()
+
+* JavaScript: When running my JavaScript through a validator it returned a number of small errors. Mainly missing semi-colons and untidy syntax. After cleaning all this up I was still left with two errors. They were as follows:
 
 ![JavaScript Error](https://user-images.githubusercontent.com/82109134/129123773-9d5d3462-36a7-4ccb-af80-e5cbca4e6ee7.png)
 
@@ -94,8 +94,44 @@ This is something I will seek future guidance on as it has puzzled me.
 A final bug which seemed to occur in the final hours before my project was submitted is the fact the progress bar is not lining up with the final question.
 The progress bar is currently filling to fast. This wasn't an issue for the majority of my time working on the quiz but popped up in the final hours. Try as I might I have not been able to figure out what may have caused this.
 
-## Deployment
+## Manual Testing
 
+After sorting all the errors I could when using the automated online validators I begin manually testing my website to ensure the site was working overall as intended, the individual features I implemented were working and the responsiveness worked for various devices.
+
+### Buttons
+
+I first went to ensure all the buttons on the site were working as intended. As this was a multiple choice quiz the buttons were integral to the performance of the website.
+
+* Start Button: The first button, located on the homepage, is the "Start Quiz!" button. This button click begins the entire quiz and generates the first question.
+I clicked this button when testing and it immediately acted as intended generating the first question and moving you onto the main quiz page.
+![start button]()
+  
+ * Correct Answer Button: I next tested to see if the answer buttons, for the questions, were working as intended. I pick the correct answer to the first question. The answer button turned green to indicate the user had answered correctly and it proceeded to load the next question in the quiz. This is exactly how I expected it to react. I repeated this process a couple more times to ensure it was consistently working. Everything was working okay so I moved on with my testing.
+![correct answer button]()
+
+* Wrong Answer Button: Just like the correct answer button I tested whether the wrong answer button worked as intended. I chose the wrong answer to the next question to test what happened. The button reacted just as I had hoped, it turned red to indicate a wrong answer and then proceeded to load the next question. I repeated this process a few more times and then moved on when I ascertained everything was working as I had hoped.
+![wrong answer button]()
+
+* End Buttons: The last buttons I had to test, as part of my testing, were the two buttons at the end of the quiz. One of these buttons was to bring you back to the homepage while the second brought you back to the start of the quiz. I clicked both these buttons multiple times to ensure it brought you to the intended location. Both buttons did this on every click so I was able to ascertain that all the buttons on my site were working exactly how I had planned them to work.
+![end buttons]()
+
+* Button Features: Once I had checked all the buttons worked on the basic functional level I went to test  the features I had implemented through CSS for the buttons. I first checked to ensure the hover feature worked when selecting one of the buttons. I hovered my cursor over various buttons (start buttons, answer buttons and the end buttons). Each time I did the button in question grew slightly in size and had a shading effect around it. This told me my transition, transform and box-shadowing properties were working as I had intended. Below is the same button with no hover feature in the first picture and the hover feature in the second picture
+![start buttong no hover]()
+![start button with hover]()
+
+Next I tested to see If the hover colour change feature was working on the answer buttons. When an answer button was being hovered on I was meant to turn yellow to indicate to the user this was the answer they were about to select. I tested multiple answers buttons for various questions. Each time the button reacted as I had hoped by the background colour turning yellow when hovered over. I concluded this feature was working and moved on with my testing.
+![answer_button_hover]()
+
+* Progress Bar: Once I had ensured the buttons were working correctly I moved onto my next feature which was the progress bar. The progress bar was supposed to start empty and fill as each question was answered. Once the bar was full it indicated you were on your final question.
+![empty progress bar]()
+![full progress bar]()
+
+* Progress Bar Bug: After running through the quiz a few times the progress bar was filling too quickly and it was full on the second last question. This was an not what I had intended to happen and was a bug. I reviewed my JavaScript code and upon consultation with my mentor I was able to figure out I had the questionCounter variable too early in the function meaning it was filling the progress bar before the question had been answered. When I moved this variable to the end of the getNewQuestion function it then starting working as I had hoped.
+
+* Score Counter: The score counter is there to track each users score as they go through the quiz. If a question is answered correctly then the score counter should go up by 10 points and if the question is answered incorrectly there should be no change on the score counter. The counter should start at 0 on question one. After running the quiz numberous times the score counter behaved exacly as it was supposed to, incrementing by 10 when a question was answered correctly and staying unchanged when answered incorrectly.
+![score counter]()
+
+## Deployment
 
 The site was deployed to GitHub pages. The steps to deploy are as follows:
 * In the GitHub repository, navigate to the Settings tab
@@ -123,6 +159,6 @@ These videos helped me gain ideas for features and ways of implementing them usi
 
 I also utilised articles on w3schools and stack overflow.
 
-Help was provided to me by colleagues on Slack and I would like to acknowledge my mentor Aaron Sinnott for his help, advice and support.
+Help was provided to me by colleague, Daisy Gunn, on Slack and I would like to acknowledge my previous mentor, Aaron Sinnott, and my current mentor, Daisy McGirr, for their help, advice and support.
 
 
