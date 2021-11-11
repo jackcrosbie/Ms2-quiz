@@ -168,7 +168,9 @@ These videos helped me gain ideas for features and ways of implementing them usi
 
 Validators Used:
 HTML - https://validator.w3.org/
+
 CSS - https://jigsaw.w3.org/css-validator/
+
 JavaScript - https://jshint.com/
 
 I also utilised articles on w3schools and stack overflow to help me with various issues while coding this project..
