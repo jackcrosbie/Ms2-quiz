@@ -91,9 +91,6 @@ If i commented out the code and ran my preview the quiz stopped working as it al
 I have since had to conclude that it is working to the level I want it to and is important to my JavaScript code.
 This is something I will seek future guidance on as it has puzzled me.
 
-A final bug which seemed to occur in the final hours before my project was submitted is the fact the progress bar is not lining up with the final question.
-The progress bar is currently filling to fast. This wasn't an issue for the majority of my time working on the quiz but popped up in the final hours. Try as I might I have not been able to figure out what may have caused this.
-
 ## Manual Testing
 
 After sorting all the errors I could when using the automated online validators I begin manually testing my website to ensure the site was working overall as intended, the individual features I implemented were working and the responsiveness worked for various devices.
@@ -109,7 +106,7 @@ I clicked this button when testing and it immediately acted as intended generati
   
  * Correct Answer Button: I next tested to see if the answer buttons, for the questions, were working as intended. I pick the correct answer to the first question. The answer button turned green to indicate the user had answered correctly and it proceeded to load the next question in the quiz. This is exactly how I expected it to react. I repeated this process a couple more times to ensure it was consistently working. Everything was working okay so I moved on with my testing.
 
-![correct answer button]()
+![correct answer button](https://github.com/jackcrosbie/Ms2-quiz/blob/301f8f9c58f63f197f8af8261af7a22cb19a42ff/docs/correct_answer_button.png)
 
 * Wrong Answer Button: Just like the correct answer button I tested whether the wrong answer button worked as intended. I chose the wrong answer to the next question to test what happened. The button reacted just as I had hoped, it turned red to indicate a wrong answer and then proceeded to load the next question. I repeated this process a few more times and then moved on when I ascertained everything was working as I had hoped.
 
@@ -139,6 +136,10 @@ Next I tested to see If the hover colour change feature was working on the answe
 
 ![score counter](https://github.com/jackcrosbie/Ms2-quiz/blob/104e61b627bd18580b175816251409da48384187/docs/score_counter_0.JPG)
 
+* Responsiveness: Once I was happy all the elements of my website were working correctly I begin checking the responsiveness of the site. I did this by using the inspect option on google chrome and choosing various screen sizes. After checking all of the dimensions available I was happy with the level of responsiveness shown by the website. It works well for mobile, tablet and large screen devices. While testing the responsiveness I came across a bug with the buttons when being used for mobile and tablet sized screens.
+
+* Button Bug for Smaller Screens: When testing the responsiveness I ran into the issue that due to these screens not having a cursor the hover feature was bugged. When you selected an answer for a question the button stayed highlighted for the next question as if it was being hovered over. This was distracting and confusing for the user. In order to fix this I simply removed the hover effect code from my base code and added it to media queries for larger screened devices, which would predominately be used with a mouse. This meant the hover feature for the answer buttons, size change and background colour change, only come into effect for larger screens and isn't used on smaller screens that are usually touch based.
+
 ## Deployment
 
 The site was deployed to GitHub pages. The steps to deploy are as follows:
@@ -165,7 +166,12 @@ The basis of my code was altered from three various videos on youtube. They are
 
 These videos helped me gain ideas for features and ways of implementing them using JavaScript and CSS.
 
-I also utilised articles on w3schools and stack overflow.
+Validators Used:
+HTML - https://validator.w3.org/
+CSS - https://jigsaw.w3.org/css-validator/
+JavaScript - https://jshint.com/
+
+I also utilised articles on w3schools and stack overflow to help me with various issues while coding this project..
 
 Help was provided to me by colleague, Daisy Gunn, on Slack and I would like to acknowledge my previous mentor, Aaron Sinnott, and my current mentor, Daisy McGirr, for their help, advice and support.
 
